@@ -34,8 +34,7 @@ describe('[+] выход из аккаунта', function () {
         cy.get('button.profile__nav-link').click();
         cy.contains('Ты уверен, что хочешь выйти из аккаунта?');
         cy.get('.box__button_ok').click
-
-        })
+    })
 
         })
 
